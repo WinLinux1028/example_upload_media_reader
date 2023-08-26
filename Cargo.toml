@@ -1,0 +1,12 @@
+[package]
+name = "upload_media_reader"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-rustls = "0.24"
+rustls-native-certs = "0.6"
+megalodon = { git = "https://github.com/WinLinux1028/megalodon-rs.git", branch = "master" }
